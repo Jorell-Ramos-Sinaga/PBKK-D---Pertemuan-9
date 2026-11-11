@@ -1,0 +1,47 @@
+# Dokumen Instruksi & README Root (Sesuai Permintaan)
+/AGENT_INSTRUCTIONS.md
+/README.md
+
+# Konfigurasi Lingkungan Lokal (Berisi Kredensial Database)
+/.env
+
+# CodeIgniter 4 Writable Directory (Cache, Log, Sesi, Debugbar)
+/writable/cache/*
+!/writable/cache/.gitkeep
+!/writable/cache/index.html
+/writable/debugbar/*
+!/writable/debugbar/.gitkeep
+/writable/logs/*
+!/writable/logs/.gitkeep
+!/writable/logs/index.html
+/writable/session/*
+!/writable/session/.gitkeep
+!/writable/session/index.html
+/writable/uploads/*
+!/writable/uploads/.gitkeep
+!/writable/uploads/index.html
+
+# Composer & Dependencies (Jika ada)
+/vendor/
+composer.phar
+
+# Testing & Cache
+.phpunit.result.cache
+/phpunit.xml
+
+# File Sementara / Scratch Scripts di Root
+/test_*.php
+*.log
+
+# Editor & IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
