@@ -328,112 +328,67 @@ Akses aplikasi melalui browser di alamat:
 
 ## 7. HASIL TAMPILAN APLIKASI (DOKUMENTASI SCREENSHOT)
 
-> *Catatan: Silakan ganti placeholder gambar `[Tempat Screenshot: ...]` di bawah ini dengan tangkapan layar antarmuka aplikasi web Anda.*
-
-### 1. Halaman Beranda Publik (*Homepage*)
+### 1. Halaman Beranda Publik
 Menampilkan hero banner bertema anak, daftar kategori mainan, produk pilihan unggulan, produk terbaru, dan footer informatif.
-```markdown
-![Halaman Beranda ToyTopia](path/ke/screenshot_beranda.png)
-```
-*(Deskripsi: Tangkapan layar halaman utama dengan banner ceria dan katalog produk terlaris)*
+![Halaman Beranda ToyTopia](laporanImg/beranda.png)
 
 ---
 
-### 2. Halaman Katalog & Filter Produk (`/produk`)
+### 2. Halaman Katalog & Filter Produk
 Menampilkan daftar seluruh mainan dengan sidebar filter kategori, slider rentang harga, kolom pencarian, dan dropdown pengurutan.
-```markdown
-![Katalog Produk ToyTopia](path/ke/screenshot_katalog.png)
-```
-*(Deskripsi: Tangkapan layar katalog produk saat difilter berdasarkan kategori dan rentang harga)*
+![Katalog Produk ToyTopia](laporanImg/katalog.png)
 
 ---
 
-### 3. Halaman Detail Produk (`/produk/{slug}`)
+### 3. Halaman Detail Produk
 Menampilkan foto mainan resolusi tinggi, rekomendasi usia, badge ketersediaan stok, form kuantitas (+/-), dan rekomendasi 4 produk terkait.
-```markdown
-![Detail Produk ToyTopia](path/ke/screenshot_detail_produk.png)
-```
-*(Deskripsi: Tangkapan layar halaman detail produk mainan beserta tombol Tambah ke Keranjang)*
+![Detail Produk ToyTopia](laporanImg/produk.png)
 
 ---
 
-### 4. Halaman Keranjang Belanja (`/keranjang`)
+### 4. Halaman Keranjang Belanja
 Menampilkan tabel daftar belanjaan, pengubah kuantitas item, perhitungan subtotal, indikator bebas biaya kirim (*Free Shipping*), dan tombol lanjut checkout.
-```markdown
-![Keranjang Belanja](path/ke/screenshot_keranjang.png)
-```
-*(Deskripsi: Tangkapan layar keranjang belanja dengan ringkasan total pembayaran)*
+![Keranjang Belanja](laporanImg/keranjang.png)
 
 ---
 
-### 5. Halaman Formulir Checkout (`/checkout`)
+### 5. Halaman Formulir Checkout
 Menampilkan isian alamat pengiriman lengkap, pemilihan metode pembayaran (Transfer Bank / COD), dan tombol konfirmasi transaksi.
-```markdown
-![Checkout Pesanan](path/ke/screenshot_checkout.png)
-```
-*(Deskripsi: Tangkapan layar proses formulir checkout pesanan)*
+![Checkout Pesanan](laporanImg/checkout.png)
 
 ---
 
-### 6. Halaman Status Pesanan Sukses (`/pesanan/sukses/{kode}`)
+### 6. Halaman Status Pesanan Sukses
 Menampilkan ucapan terima kasih, nomor kode pesanan unik, rincian biaya, dan petunjuk transfer rekening bank resmi.
-```markdown
-![Nota Sukses Belanja](path/ke/screenshot_sukses_pesanan.png)
-```
-*(Deskripsi: Tangkapan layar halaman konfirmasi pesanan berhasil dibuat)*
+![Nota Sukses Belanja](laporanImg/sukses.png)
 
 ---
 
-### 7. Halaman Riwayat & Detail Pesanan Saya (`/pesanan`)
+### 7. Halaman Riwayat & Detail Pesanan Saya
 Menampilkan status pesanan pelanggan dan tombol pembatalan mandiri untuk pesanan yang masih berstatus *Menunggu Pembayaran*.
-```markdown
-![Riwayat Pesanan Pelanggan](path/ke/screenshot_pesanan_saya.png)
-```
-*(Deskripsi: Tangkapan layar tabel pesanan pelanggan dan tombol batalkan pesanan)*
+![Riwayat Pesanan Pelanggan](laporanImg/riwayat.png)
 
 ---
 
-### 8. Halaman Dashboard Administrator (`/admin`)
+### 8. Halaman Dashboard Administrator
 Menampilkan ringkasan metrik omset penjualan, total pesanan, grafik stok menipis (&le; 5 unit), dan daftar transaksi paling baru.
-```markdown
-![Dashboard Administrator](path/ke/screenshot_admin_dashboard.png)
-```
-*(Deskripsi: Tangkapan layar panel kendali admin untuk memantau performa toko online)*
+![Dashboard Administrator](laporanImg/adminDashboard.png)
 
 ---
 
-### 9. Halaman Manajemen Produk Admin (`/admin/produk`)
+### 9. Halaman Manajemen Produk Admin
 Menampilkan tabel inventaris master produk dengan fitur pencarian admin, status keaktifan, dan tombol edit/hapus.
-```markdown
-![Manajemen Produk Admin](path/ke/screenshot_admin_produk.png)
-```
-*(Deskripsi: Tangkapan layar daftar manajemen produk pada panel admin)*
+![Manajemen Produk Admin](laporanImg/adminProduk.png)
 
 ---
 
-### 10. Halaman Formulir Tambah/Ubah Produk (`/admin/produk/baru`)
+### 10. Halaman Formulir Tambah/Ubah Produk
 Menampilkan isian nama mainan, pemilihan kategori, input harga, kuantitas stok, upload gambar produk interaktif, dan switch produk unggulan.
-```markdown
-![Form Produk Admin](path/ke/screenshot_admin_form_produk.png)
-```
-*(Deskripsi: Tangkapan layar upload foto produk dan pengisian data mainan baru)*
+![Form Produk Admin](laporanImg/adminTambah.png)
 
 ---
 
-### 11. Halaman Manajemen Pesanan Masuk Admin (`/admin/pesanan`)
+### 11. Halaman Manajemen Pesanan Masuk Admin
 Menampilkan daftar pesanan masuk dengan navigasi tab per status pesanan, serta modal/form pengubahan status pesanan pengiriman.
-```markdown
-![Manajemen Pesanan Admin](path/ke/screenshot_admin_pesanan.png)
-```
-*(Deskripsi: Tangkapan layar manajemen pesanan untuk memproses paket pembeli)*
-
----
-
-## 8. KESIMPULAN
-
-Pengembangan aplikasi web e-commerce **ToyTopia** berbasis **CodeIgniter 4** ini telah berhasil menyelesaikan seluruh target fungsionalitas dan kriteria penyelesaian (*Definition of Done*):
-1. Arsitektur MVC terorganisasi dengan pemisahan Controller yang ringkas, Model yang memegang logika basis data, dan View yang terstruktur melalui layout inheritance.
-2. Keamanan aplikasi terjamin melalui aktivasi CSRF protection di setiap formulir, hashing kata sandi yang aman, sanitasi output XSS, serta filter otorisasi peran (Role-Based Access Control).
-3. Transaksi belanja terlindungi oleh mekanisme Database Transaction yang menjamin stok produk selalu sinkron dan riwayat transaksi masa lalu tetap akurat berkat pencatatan snapshot harga.
-4. Desain antarmuka responsif dan ramah anak memudahkan pengguna menjelajahi dan berbelanja melalui perangkat komputer (*desktop*) maupun ponsel pintar (*mobile*).
+![Manajemen Pesanan Admin](laporanImg/adminPesanan.png)
 
